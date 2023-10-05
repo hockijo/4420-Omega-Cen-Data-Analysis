@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  31 AUG 2023 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  5 OCT 2023 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -190,56 +190,142 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
-) (d:/texlive/2023/texmf-dist/tex/latex/sidecap/sidecap.sty
-Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
+) (d:/texlive/2023/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (d:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+ (d:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecaptionskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \flushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \endgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil }}\endgroup \vskip \belowcaptionskip  on input line 1170.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+)
+\c@KVtest=\count281
+\sf@farskip=\skip56
+\sf@captopadj=\dimen159
+\sf@capskip=\skip57
+\sf@nearskip=\skip58
+\c@subfigure=\count282
+\c@subfigure@save=\count283
+\c@lofdepth=\count284
+\c@subtable=\count285
+\c@subtable@save=\count286
+\c@lotdepth=\count287
+\sf@top=\skip59
+\sf@bottom=\skip60
+) (d:/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (d:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen151
-\SC@CAPWD=\dimen152
-\SC@tempdima=\dimen153
-\SC@tempdimb=\dimen154
-\c@SC@C=\count279
-\SC@BOX=\box68
+\c@r@tfl@t=\count288
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box68
+\rot@mess@toks=\toks28
+) (d:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count289
+\float@exts=\toks29
+\float@box=\box69
+\@float@everytoks=\toks30
+\@floatcapt=\box70
+) (d:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count290
+\lst@gtempboxa=\box71
+\lst@token=\toks31
+\lst@length=\count291
+\lst@currlwidth=\dimen160
+\lst@column=\count292
+\lst@pos=\count293
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count294
+\lst@lineno=\count295
+\lst@maxwidth=\dimen163
+ (d:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count296
+\lst@skipnumbers=\count297
+\lst@framebox=\box72
+) (d:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (d:/texlive/2023/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen164
+\SC@CAPWD=\dimen165
+\SC@tempdima=\dimen166
+\SC@tempdimb=\dimen167
+\c@SC@C=\count298
+\SC@BOX=\box73
 )
-Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 16.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 16.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 16.
- (d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 17.
+
+
+Class revtex4-2 Warning: Repair the float package.
+
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 17.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 17.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 17.
+(d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box69
-) (./main.aux)
+\l__color_backend_stack_int=\count299
+\l__pdf_internal_box=\box74
+) (./main.aux
+
+LaTeX Warning: Label `fig:main-4-spectra' multiply defined.
+
+
+LaTeX Warning: Label `fig:main-4-spectra' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen155
-\scratchbox=\box70
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen156
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count300
+\scratchdimen=\dimen168
+\scratchbox=\box75
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen169
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks33
 ) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (d:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -269,22 +355,31 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
  (d:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (d:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: sidecap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count306
+ (d:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip56
-\RaggedLeftLeftskip=\skip57
-\RaggedRightLeftskip=\skip58
-\CenteringRightskip=\skip59
-\RaggedLeftRightskip=\skip60
-\RaggedRightRightskip=\skip61
-\CenteringParfillskip=\skip62
-\RaggedLeftParfillskip=\skip63
-\RaggedRightParfillskip=\skip64
-\JustifyingParfillskip=\skip65
-\CenteringParindent=\skip66
-\RaggedLeftParindent=\skip67
-\RaggedRightParindent=\skip68
-\JustifyingParindent=\skip69
+\CenteringLeftskip=\skip63
+\RaggedLeftLeftskip=\skip64
+\RaggedRightLeftskip=\skip65
+\CenteringRightskip=\skip66
+\RaggedLeftRightskip=\skip67
+\RaggedRightRightskip=\skip68
+\CenteringParfillskip=\skip69
+\RaggedLeftParfillskip=\skip70
+\RaggedRightParfillskip=\skip71
+\JustifyingParfillskip=\skip72
+\CenteringParindent=\skip73
+\RaggedLeftParindent=\skip74
+\RaggedRightParindent=\skip75
+\JustifyingParindent=\skip76
 )
 \openout3 = `mainNotes.bib'.
 
@@ -295,38 +390,413 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<img/gc-xray-sources.png, id=21, 382.42876pt x 448.67625pt>
+) [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<img/gc-xray-sources.png, id=15, 382.42876pt x 448.67625pt>
 File: img/gc-xray-sources.png Graphic file (type png)
 <use img/gc-xray-sources.png>
-Package pdftex.def Info: img/gc-xray-sources.png  used on input line 49.
+Package pdftex.def Info: img/gc-xray-sources.png  used on input line 59.
 (pdftex.def)             Requested size: 187.19714pt x 219.62735pt.
+ [2 <./img/gc-xray-sources.png>]
+<img/truecolor-mx0.75-edit-bright.jpg, id=25, 1922.68312pt x 1700.60344pt>
+File: img/truecolor-mx0.75-edit-bright.jpg Graphic file (type jpg)
+<use img/truecolor-mx0.75-edit-bright.jpg>
+Package pdftex.def Info: img/truecolor-mx0.75-edit-bright.jpg  used on input line 69.
+(pdftex.def)             Requested size: 397.80286pt x 351.84364pt.
+ [3 <./img/truecolor-mx0.75-edit-bright.jpg>]
+Overfull \vbox (0.24007pt too high) has occurred while \output is active []
 
-Overfull \vbox (14.26816pt too high) has occurred while \output is active []
+ [4]
+<img/src-3-spectrum.jpg, id=33, 2187.17125pt x 3028.31375pt>
+File: img/src-3-spectrum.jpg Graphic file (type jpg)
+<use img/src-3-spectrum.jpg>
+Package pdftex.def Info: img/src-3-spectrum.jpg  used on input line 115.
+(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
+<img/src-5-spectrum.jpg, id=34, 2187.17125pt x 3028.31375pt>
+File: img/src-5-spectrum.jpg Graphic file (type jpg)
+<use img/src-5-spectrum.jpg>
+Package pdftex.def Info: img/src-5-spectrum.jpg  used on input line 116.
+(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
+<img/src-6-spectrum.jpg, id=35, 2187.17125pt x 3028.31375pt>
+File: img/src-6-spectrum.jpg Graphic file (type jpg)
+<use img/src-6-spectrum.jpg>
+Package pdftex.def Info: img/src-6-spectrum.jpg  used on input line 117.
+(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
+<img/src-11-spectrum.jpg, id=36, 2187.17125pt x 3028.31375pt>
+File: img/src-11-spectrum.jpg Graphic file (type jpg)
+<use img/src-11-spectrum.jpg>
+Package pdftex.def Info: img/src-11-spectrum.jpg  used on input line 118.
+(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
+ [5] [6] [7 <./img/src-3-spectrum.jpg> <./img/src-5-spectrum.jpg> <./img/src-6-spectrum.jpg> <./img/src-11-spectrum.jpg>] [8] (./main.bbl) [9]
+<img/src-1-spectrum.jpg, id=55, 710.8959pt x 531.1845pt>
+File: img/src-1-spectrum.jpg Graphic file (type jpg)
+<use img/src-1-spectrum.jpg>
+Package pdftex.def Info: img/src-1-spectrum.jpg  used on input line 140.
+(pdftex.def)             Requested size: 710.89417pt x 531.18318pt.
+<img/src-2-spectrum.jpg, id=56, 701.5008pt x 524.6802pt>
+File: img/src-2-spectrum.jpg Graphic file (type jpg)
+<use img/src-2-spectrum.jpg>
+Package pdftex.def Info: img/src-2-spectrum.jpg  used on input line 141.
+(pdftex.def)             Requested size: 701.49908pt x 524.67892pt.
+<img/src-4-spectrum.jpg, id=57, 709.4505pt x 530.2209pt>
+File: img/src-4-spectrum.jpg Graphic file (type jpg)
+<use img/src-4-spectrum.jpg>
+Package pdftex.def Info: img/src-4-spectrum.jpg  used on input line 142.
+(pdftex.def)             Requested size: 709.44876pt x 530.21959pt.
+<img/src-7-spectrum.jpg, id=58, 711.6186pt x 535.2798pt>
+File: img/src-7-spectrum.jpg Graphic file (type jpg)
+<use img/src-7-spectrum.jpg>
+Package pdftex.def Info: img/src-7-spectrum.jpg  used on input line 143.
+(pdftex.def)             Requested size: 711.61687pt x 535.27849pt.
+<img/src-8-spectrum.jpg, id=59, 705.1143pt x 529.4982pt>
+File: img/src-8-spectrum.jpg Graphic file (type jpg)
+<use img/src-8-spectrum.jpg>
+Package pdftex.def Info: img/src-8-spectrum.jpg  used on input line 148.
+(pdftex.def)             Requested size: 705.11258pt x 529.49689pt.
+<img/src-9-spectrum.jpg, id=60, 703.1871pt x 526.3665pt>
+File: img/src-9-spectrum.jpg Graphic file (type jpg)
+<use img/src-9-spectrum.jpg>
+Package pdftex.def Info: img/src-9-spectrum.jpg  used on input line 149.
+(pdftex.def)             Requested size: 703.1854pt x 526.36522pt.
+<img/src-10-spectrum.jpg, id=61, 711.6186pt x 531.9072pt>
+File: img/src-10-spectrum.jpg Graphic file (type jpg)
+<use img/src-10-spectrum.jpg>
+Package pdftex.def Info: img/src-10-spectrum.jpg  used on input line 150.
+(pdftex.def)             Requested size: 711.61687pt x 531.90588pt.
+<img/src-12-spectrum.jpg, id=62, 703.428pt x 529.4982pt>
+File: img/src-12-spectrum.jpg Graphic file (type jpg)
+<use img/src-12-spectrum.jpg>
+Package pdftex.def Info: img/src-12-spectrum.jpg  used on input line 151.
+(pdftex.def)             Requested size: 703.42628pt x 529.49689pt.
+<img/src-13-spectrum.jpg, id=63, 705.837pt x 533.5935pt>
+File: img/src-13-spectrum.jpg Graphic file (type jpg)
+<use img/src-13-spectrum.jpg>
+Package pdftex.def Info: img/src-13-spectrum.jpg  used on input line 156.
+(pdftex.def)             Requested size: 397.80286pt x 300.73183pt.
+ [10 <./img/src-1-spectrum.jpg> <./img/src-2-spectrum.jpg> <./img/src-4-spectrum.jpg> <./img/src-7-spectrum.jpg>] (d:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (d:/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+) [11 <./img/src-8-spectrum.jpg> <./img/src-9-spectrum.jpg> <./img/src-10-spectrum.jpg> <./img/src-12-spectrum.jpg>] (./auto-xspec-process.xcm
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9.
+ (d:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 9.
+ (d:/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
 
- [3 <./img/gc-xray-sources.png>] (./main.bbl [4]) [5] (./main.aux)
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+[12{d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./img/src-13-spectrum.jpg>]
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (25.49915pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+[13] [14]
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 99--100
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 100--101
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 101--102
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 103--104
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 104--105
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 105--106
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 109--110
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 111--112
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 112--113
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 113--114
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (32.54913pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 115--116
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (25.49915pt too wide) in paragraph at lines 116--117
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+[15] [16]
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 196--197
+[][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 197--198
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 198--199
+[][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 200--201
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 201--202
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 202--203
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 203--204
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 204--205
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 205--206
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 206--207
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 207--208
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+[17]
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 208--209
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 209--210
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 210--211
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (32.54913pt too wide) in paragraph at lines 211--212
+[][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (11.39917pt too wide) in paragraph at lines 212--213
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (25.49915pt too wide) in paragraph at lines 213--214
+[][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.34918pt too wide) in paragraph at lines 215--216
+[][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+[18]) [19] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5492 strings out of 476303
- 80241 string characters out of 5788266
- 1927248 words of memory out of 5000000
- 26540 multiletter control sequences out of 15000+600000
- 568814 words of font info for 78 fonts, out of 8000000 for 9000
+ 9200 strings out of 476303
+ 140032 string characters out of 5788266
+ 2021248 words of memory out of 5000000
+ 30202 multiletter control sequences out of 15000+600000
+ 569760 words of font info for 81 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 71i,8n,79p,2090b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (5 pages, 209931 bytes).
+ 71i,11n,79p,2177b,1845s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (19 pages, 6480171 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 169 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

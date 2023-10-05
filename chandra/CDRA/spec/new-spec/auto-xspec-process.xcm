@@ -1,0 +1,261 @@
+statistic cstat
+method leven 1000 0.01
+abund lpgs
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic
+
+for {set i 1} {$i < 5} {incr i} {
+  data [format "comb_%d_src.pi" $i]
+  ig bad
+
+  query yes
+  model  TBabs*vmekal
+        0.237065      0.001        0.09       0.09     100000      1e+06
+               10       0.01     0.0808     0.0808       79.9       79.9
+              0.3      -0.01      1e-06      1e-05      1e+19      1e+20
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+             0.03      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                0      -0.01     -0.999     -0.999         10         10
+                2
+      0.000111271       0.01          0          0      1e+20      1e+24
+  bayes off
+
+  renorm
+  fit 10
+
+  if {$i != 4} {
+    error 1 2 20
+    # writefits [format "src-%d-spectrum.fits" $i]
+    tclout error 1
+    set err1 $xspec_tclout
+    tclout error 2
+    set err2 $xspec_tclout
+    tclout error 20
+    set err20 $xspec_tclout
+    set err [list $err1 $err2 $err20]
+    set fp [open [format "src-%d-error.txt" $i], w+]
+    puts $fp $err
+    close $fp
+  } elseif {$i == 10} {
+    error 1 20
+    # writefits [format "src-%d-spectrum.fits" $i]
+    tclout error 1
+    set err1 $xspec_tclout
+    tclout error 2
+    set err2 $xspec_tclout
+    tclout error 20
+    set err20 $xspec_tclout
+    set err [list $err1 $err2 $err20]
+    set fp [open [format "src-%d-error.txt" $i], w+]
+    puts $fp $err
+    close $fp
+  }
+
+  lumin 0.5 6 1.2e-6 err 20,90
+  tclout lumin
+  set lum $xspec_tclout
+  set fp [open [format "src-%d-lumin.txt" $i], w+]
+  puts $fp $lum
+  close $fp
+
+  setplot en
+  setplot rebin 10, 15
+
+  #init plotting and save model
+  save all [format "src-%d-spectrum.xcm" $i]
+  cpd [format "src-%d-spectrum.ps" $i]/cps
+
+  # set the plot formatting
+  setplot co label top [format "Source %d Spectrum" $i]
+  setplot co rescale y 1.e-6 5e-2
+  setplot co rescale x 0.1 11
+  setplot co time off
+
+  # plot log-log and residuals
+  plot ld del
+  cpd none
+}
+
+for {set i 5} {$i < 12} {incr i} {
+  data [format "comb_%d_src.pi" $i]
+  ig bad
+
+  query yes
+  model  TBabs*vmekal
+        0.237065      0.001        0.09       0.09     100000      1e+06
+               10       0.01     0.0808     0.0808       79.9       79.9
+              0.3      -0.01      1e-06      1e-05      1e+19      1e+20
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                0.03      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                0      -0.01     -0.999     -0.999         10         10
+                2
+      0.000111271       0.01          0          0      1e+20      1e+24
+  bayes off
+
+  renorm
+  fit 10
+
+  if {$i != 10 && $i !=8} {
+    error 1 2 20
+    # writefits [format "src-%d-spectrum.fits" $i]
+    tclout error 1
+    set err1 $xspec_tclout
+    tclout error 2
+    set err2 $xspec_tclout
+    tclout error 20
+    set err20 $xspec_tclout
+    set err [list $err1 $err2 $err20]
+    set fp [open [format "src-%d-error.txt" $i], w+]
+    puts $fp $err
+    close $fp
+  } elseif {$i == 8} {
+    error 2 20
+    # writefits [format "src-%d-spectrum.fits" $i]
+    tclout error 1
+    set err1 $xspec_tclout
+    tclout error 2
+    set err2 $xspec_tclout
+    tclout error 20
+    set err20 $xspec_tclout
+    set err [list $err1 $err2 $err20]
+    set fp [open [format "src-%d-error.txt" $i], w+]
+    puts $fp $err
+    close $fp
+  } elseif {$i == 10} {
+    error 1 20
+    # writefits [format "src-%d-spectrum.fits" $i]
+    tclout error 1
+    set err1 $xspec_tclout
+    tclout error 2
+    set err2 $xspec_tclout
+    tclout error 20
+    set err20 $xspec_tclout
+    set err [list $err1 $err2 $err20]
+    set fp [open [format "src-%d-error.txt" $i], w+]
+    puts $fp $err
+    close $fp
+  }
+
+  lumin 0.5 6 1.2e-6 err 20,90
+  tclout lumin
+  set lum $xspec_tclout
+  set fp [open [format "src-%d-lumin.txt" $i], w+]
+  puts $fp $lum
+  close $fp
+
+  setplot en
+  setplot rebin 8, 10
+
+  #init plotting and save model
+  save all [format "src-%d-spectrum.xcm" $i]
+  cpd [format "src-%d-spectrum.ps" $i]/cps
+
+  # set the plot formatting
+  setplot co label top [format "Source %d Spectrum" $i]
+  setplot co rescale y 1.e-8 1e-3
+  setplot co rescale x 0.1 11
+  setplot co time off
+
+  # plot log-log and residuals
+  plot ld del
+  cpd none
+}
+
+for {set i 12} {$i < 14} {incr i} {
+  data [format "comb_%d_src.pi" $i]
+  ig bad
+
+  query on
+  model  TBabs*vmekal
+                1     0.001        0.09       0.09     100000      1e+06
+               10       0.01     0.0808     0.0808       79.9       79.9
+              0.3      -0.01      1e-06      1e-05      1e+19      1e+20
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                0.03      -0.01          0          0       1000       1000
+                1      -0.01          0          0       1000       1000
+                0      -0.01     -0.999     -0.999         10         10
+                2
+      0.000111271       0.01          0          0      1e+20      1e+24
+  bayes off
+
+  # conform the fit to the specific data set
+  newpar 1 0.09
+  freeze 1
+
+  renorm
+  fit 10
+
+  error 1 2 20
+  # writefits [format "src-%d-spectrum.fits" $i]
+  tclout error 1
+  set err1 $xspec_tclout
+  tclout error 2
+  set err2 $xspec_tclout
+  tclout error 20
+  set err20 $xspec_tclout
+  set err [list $err1 $err2 $err20]
+  set fp [open [format "src-%d-error.txt" $i], w+]
+  puts $fp $err
+  close $fp
+
+  lumin 0.5 6 1.2e-6 err 20,90
+  tclout lumin
+  set lum $xspec_tclout
+  set fp [open [format "src-%d-lumin.txt" $i], w+]
+  puts $fp $lum
+  close $fp
+
+  setplot en
+  setplot rebin 6, 10
+
+  #init plotting and save model
+  save all [format "src-%d-spectrum.xcm" $i]
+  cpd [format "src-%d-spectrum.ps" $i]/cps
+
+  # set the plot formatting
+  setplot co label top [format "Source %d Spectrum" $i]
+  setplot co rescale y 1.e-8 1e-3
+  setplot co rescale x 0.1 11
+  setplot co time off
+
+  # plot log-log and residuals
+  plot ld del
+  cpd none
+}

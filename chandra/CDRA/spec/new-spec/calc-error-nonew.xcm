@@ -1,0 +1,14 @@
+@[format "src-%d-spectrum.xcm" $i]
+fit
+error 1 20
+# writefits [format "src-%d-spectrum.fits" $i]
+tclout error 1
+set err1 $xspec_tclout
+tclout error 2
+set err2 $xspec_tclout
+tclout error 20
+set err20 $xspec_tclout
+set err [list $err1 $err2 $err20]
+set fp [open [format "src-%d-error.txt" $i], w+]
+puts $fp $err
+close $fp

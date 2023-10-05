@@ -1,0 +1,173 @@
+#XSPEC version: 12.13.0c
+#Build Date/Time: Tue Jul 25 21:23:06 2023
+#
+!XSPEC12> mo tbabs*vmekal
+#
+#Input parameter value, delta, min, bot, top, and max values for ...
+#              1      0.001(      0.01)          0          0     100000      1e+06
+#              1       0.01(      0.01)     0.0808     0.0808       79.9       79.9
+#              1      -0.01(      0.01)      1e-06      1e-05      1e+19      1e+20
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              1      -0.01(      0.01)          0          0       1000       1000
+#              0      -0.01(      0.01)     -0.999     -0.999         10         10
+#              1
+#              1       0.01(      0.01)          0          0      1e+20      1e+24
+#
+#========================================================================
+#Model TBabs<1>*vmekal<2> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#   1    1   TBabs      nH         10^22    0.160000     +/-  0.0          
+#   2    2   vmekal     kT         keV      34.0000      +/-  0.0          
+#   3    2   vmekal     nH         cm-3     0.160000     frozen
+#   4    2   vmekal     He                  1.00000      frozen
+#   5    2   vmekal     C                   1.00000      frozen
+#   6    2   vmekal     N                   1.00000      frozen
+#   7    2   vmekal     O                   1.00000      frozen
+#   8    2   vmekal     Ne                  1.00000      frozen
+#   9    2   vmekal     Na                  1.00000      frozen
+#  10    2   vmekal     Mg                  1.00000      frozen
+#  11    2   vmekal     Al                  1.00000      frozen
+#  12    2   vmekal     Si                  1.00000      frozen
+#  13    2   vmekal     S                   1.00000      frozen
+#  14    2   vmekal     Ar                  1.00000      frozen
+#  15    2   vmekal     Ca                  1.00000      frozen
+#  16    2   vmekal     Fe                  1.00000      frozen
+#  17    2   vmekal     Ni                  1.00000      frozen
+#  18    2   vmekal     Redshift            0.0          frozen
+#  19    2   vmekal     switch              2            frozen
+#  20    2   vmekal     norm                1.00000E-04  +/-  0.0          
+#________________________________________________________________________
+#
+#
+#Fit statistic  : Chi-Squared                  591.66     using 650 bins.
+#
+#***Warning: Chi-square may not be valid due to bins with zero variance
+#            in spectrum number: 1
+#
+#Test statistic : Chi-Squared                  591.66     using 650 bins.
+#
+#***Warning: Chi-square may not be valid due to bins with zero variance
+#            in spectrum number(s): 1 
+#
+# Null hypothesis probability of 9.41e-01 with 647 degrees of freedom
+# Current data and model not fit yet.
+#
+!XSPEC12> fit
+#                                   Parameters
+#Chi-Squared  |beta|/N    Lvl          1:nH          2:kT       20:norm
+#489.578      30.9274      -1      0.141585       12.5731   0.000110432
+#489.006      186763       -2      0.215647       5.37421   0.000107229
+#478.078      41143.9      -3      0.247261       6.37483   0.000111622
+#477.544      10555.3      -4      0.239928       6.84756   0.000111392
+#477.511      2015.6       -5      0.237333       6.99868   0.000111280
+#477.51       184.698      -6      0.237061       7.01983   0.000111271
+#========================================
+# Variances and Principal Axes
+#                 1        2       20  
+# 6.7803E-12| -0.0001  -0.0000   1.0000  
+# 7.4070E-04|  0.9997   0.0241   0.0001  
+# 9.2842E-01| -0.0241   0.9997  -0.0000  
+#----------------------------------------
+#
+#====================================
+#  Covariance Matrix
+#        1           2           3   
+#   1.281e-03  -2.238e-02   1.013e-07
+#  -2.238e-02   9.279e-01  -1.492e-06
+#   1.013e-07  -1.492e-06   1.493e-11
+#------------------------------------
+#
+#========================================================================
+#Model TBabs<1>*vmekal<2> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#   1    1   TBabs      nH         10^22    0.237061     +/-  3.57923E-02  
+#   2    2   vmekal     kT         keV      7.01983      +/-  0.963264     
+#   3    2   vmekal     nH         cm-3     0.160000     frozen
+#   4    2   vmekal     He                  1.00000      frozen
+#   5    2   vmekal     C                   1.00000      frozen
+#   6    2   vmekal     N                   1.00000      frozen
+#   7    2   vmekal     O                   1.00000      frozen
+#   8    2   vmekal     Ne                  1.00000      frozen
+#   9    2   vmekal     Na                  1.00000      frozen
+#  10    2   vmekal     Mg                  1.00000      frozen
+#  11    2   vmekal     Al                  1.00000      frozen
+#  12    2   vmekal     Si                  1.00000      frozen
+#  13    2   vmekal     S                   1.00000      frozen
+#  14    2   vmekal     Ar                  1.00000      frozen
+#  15    2   vmekal     Ca                  1.00000      frozen
+#  16    2   vmekal     Fe                  1.00000      frozen
+#  17    2   vmekal     Ni                  1.00000      frozen
+#  18    2   vmekal     Redshift            0.0          frozen
+#  19    2   vmekal     switch              2            frozen
+#  20    2   vmekal     norm                1.11271E-04  +/-  3.86444E-06  
+#________________________________________________________________________
+#
+#
+#Fit statistic  : Chi-Squared                  477.51     using 650 bins.
+#
+#***Warning: Chi-square may not be valid due to bins with zero variance
+#            in spectrum number: 1
+#
+#Test statistic : Chi-Squared                  477.51     using 650 bins.
+#
+#***Warning: Chi-square may not be valid due to bins with zero variance
+#            in spectrum number(s): 1 
+#
+# Null hypothesis probability of 1.00e+00 with 647 degrees of freedom
+#
+!XSPEC12> pl sum
+#
+!XSPEC12> pl lsum
+#
+#***XSPEC Error: Invalid Range:  range lsum contains invalid characters 
+#
+#***XSPEC Error: Invalid plot specification: lsum
+#
+!XSPEC12> setplot ylog on
+#
+!XSPEC12> pl sum
+#
+!XSPEC12> setplot co label top Source 1 Spectrum
+#1
+#
+!XSPEC12> pl sum
+#
+!XSPEC12> show plot
+# Plot settings:
+#   Showing of individual additive components is OFF.
+#   Showing of background spectra is OFF.
+#   Effective area normalization is OFF.
+#   Current unit settings:
+#      Energy     = keV
+#      Wavelength = angstrom, with Y-Axis displayed per Hz
+#   X-Axis data display mode: Energy
+#   Spectra plots will be shifted to source frame by redshift value z: 0
+#   Device: /xw
+#   Plotting of line IDs is OFF.
+#   Splashpage is ON.
+#   xlog for data plots is ON.
+#   ylog for data plots is ON.
+#
+#   Default plot rebin settings for all plot groups:
+#   Min. Signif.   Max. # Bins   Error Type
+#        5.00000             5         quad
+#
+!XSPEC12> xit
+#
+!XSPEC12> exit
+# XSPEC: quit
+#
