@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: mainNotes.bib
+Database file #2: references.bib
+Warning--empty journal in Bahramian2022
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            688 strings with 9631 characters,
+and the built_in function-call counts, 9917 in all, are:
+= -- 958
+> -- 588
+< -- 0
++ -- 237
+- -- 204
+* -- 850
+:= -- 1729
+add.period$ -- 91
+call.type$ -- 27
+change.case$ -- 182
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 289
+empty$ -- 660
+format.name$ -- 204
+if$ -- 1942
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 25
+newline$ -- 148
+num.names$ -- 54
+pop$ -- 132
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 194
+stack$ -- 0
+substring$ -- 619
+swap$ -- 26
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 1
+while$ -- 93
+width$ -- 29
+write$ -- 315
+(There was 1 warning)

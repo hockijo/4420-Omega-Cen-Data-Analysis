@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.17)  5 OCT 2023 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.17)  5 OCT 2023 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,17 +23,17 @@ Class revtex4-2 Info: Repairing broken LaTeX eqnarray on input line 417.
 \eqncolsep=\skip48
 Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfootnote on input line 492.
 Class revtex4-2 Info: Repairing broken LateX \@sect on input line 814.
-\intertabularlinepenalty=\count185
-\@tbpen=\count186
+\intertabularlinepenalty=\count181
+\@tbpen=\count182
 \@arstrutbox@hline=\box51
 Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1845.
 Class revtex4-2 Info: Making \typeout \long on input line 2110.
 ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
-\c@affil=\count187
-\c@collab=\count188
+\c@affil=\count183
+\c@collab=\count184
 \absbox=\box52
 ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter web at superscript.com)]
-\c@linecount=\count189
+\c@linecount=\count185
 \output@latex=\toks17
 \box@size@1=\box53
 \box@size@2=\box54
@@ -44,21 +44,21 @@ ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter w
 \column@recovered=\box58
 \pagesofar=\box59
 \footsofar=\box60
-\pagegrid@col=\count190
+\pagegrid@col=\count186
 Class revtex4-2 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and \\  on input line 5676.
-\c@part=\count191
-\c@section=\count192
-\c@subsection=\count193
-\c@subsubsection=\count194
-\c@paragraph=\count195
-\c@subparagraph=\count196
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\c@figure=\count197
+\c@figure=\count193
 \fbox@1=\box61
-\c@table=\count198
+\c@table=\count194
 \fbox@2=\box62
-\c@video=\count199
+\c@video=\count195
 \fbox@4=\box63
 \@bibdataout=\write3
 \widetext@top=\box64
@@ -105,14 +105,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (d:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -125,20 +125,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
+\macc@depth=\count267
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count272
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks21
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks22
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
@@ -160,7 +160,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip54
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count278
+\c@NAT@ctr=\count274
 )
 Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7676.
  (d:/texlive/2023/texmf-dist/tex/latex/revtex/revsymb4-2.sty
@@ -172,6 +172,10 @@ LaTeX Info: Redefining \REV@mathfrak on input line 128.
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (d:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (d:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
@@ -184,9 +188,9 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (d:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (d:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (d:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
@@ -213,20 +217,20 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
 )
-\c@KVtest=\count281
+\c@KVtest=\count277
 \sf@farskip=\skip56
 \sf@captopadj=\dimen159
 \sf@capskip=\skip57
 \sf@nearskip=\skip58
-\c@subfigure=\count282
-\c@subfigure@save=\count283
-\c@lofdepth=\count284
-\c@subtable=\count285
-\c@subtable@save=\count286
-\c@lotdepth=\count287
+\c@subfigure=\count278
+\c@subfigure@save=\count279
+\c@lofdepth=\count280
+\c@subtable=\count281
+\c@subtable@save=\count282
+\c@lotdepth=\count283
 \sf@top=\skip59
 \sf@bottom=\skip60
 ) (d:/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
@@ -234,48 +238,139 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (d:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count288
+\c@r@tfl@t=\count284
 \rotFPtop=\skip61
 \rotFPbot=\skip62
 \rot@float@box=\box68
 \rot@mess@toks=\toks28
 ) (d:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count289
+\c@float@type=\count285
 \float@exts=\toks29
 \float@box=\box69
 \@float@everytoks=\toks30
 \@floatcapt=\box70
-) (d:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count290
-\lst@gtempboxa=\box71
-\lst@token=\toks31
-\lst@length=\count291
-\lst@currlwidth=\dimen160
-\lst@column=\count292
-\lst@pos=\count293
-\lst@lostspace=\dimen161
-\lst@width=\dimen162
-\lst@newlines=\count294
-\lst@lineno=\count295
-\lst@maxwidth=\dimen163
- (d:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count296
-\lst@skipnumbers=\count297
-\lst@framebox=\box72
-) (d:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+) (d:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+ (d:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (d:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (d:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (d:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (d:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (d:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (d:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (d:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (d:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (d:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (d:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+ (d:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (d:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (d:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (d:/texlive/2023/texmf-dist/tex/latex/sidecap/sidecap.sty
+
+Package nameref Warning: The definition of \label has changed! 
+(nameref)                Check your packages! 
+(nameref)                Replacing it with the kernel definition on input line 145.
+
+\c@section@level=\count286
+) (d:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+\@linkdim=\dimen160
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (d:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+) (d:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+ (d:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+LaTeX Info: Redefining \href on input line 4683.
+\c@Hy@tempcnt=\count291
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen161
+ (d:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (d:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (d:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (d:/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2023-07-08 v7.01b Hyperref driver for XeTeX
+ (d:/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box71
+\c@Hy@AnnotLevel=\count296
+\HyField@AnnotCount=\count297
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+ (d:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (d:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (d:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip63
+) (d:/texlive/2023/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
 \SC@BOXWD=\dimen164
 \SC@CAPWD=\dimen165
 \SC@tempdima=\dimen166
 \SC@tempdimb=\dimen167
-\c@SC@C=\count298
-\SC@BOX=\box73
+\c@SC@C=\count300
+\SC@BOX=\box72
 )
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 17.
 
@@ -285,18 +380,14 @@ Class revtex4-2 Warning: Repair the float package.
 Class revtex4-2 Info: cite was not loaded (OK!) on input line 17.
 Class revtex4-2 Info: mcite was not loaded (OK!) on input line 17.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 17.
-(d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box74
-) (./main.aux
-
-LaTeX Warning: Label `fig:main-4-spectra' multiply defined.
-
-
-LaTeX Warning: Label `fig:main-4-spectra' multiply defined.
-
-)
+(d:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count301
+\l__pdf_internal_box=\box73
+\g__pdf_backend_object_int=\count302
+\g__pdf_backend_annotation_int=\count303
+\g__pdf_backend_link_int=\count304
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -308,79 +399,51 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 17.
+ (d:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
- (d:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen168
-\scratchbox=\box75
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen169
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks33
-) (d:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (d:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (d:/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (d:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (d:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (d:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (d:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (d:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (d:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
- (d:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
+Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count306
+Package hyperref Info: Link coloring OFF on input line 17.
+ (./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
  (d:/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip63
-\RaggedLeftLeftskip=\skip64
-\RaggedRightLeftskip=\skip65
-\CenteringRightskip=\skip66
-\RaggedLeftRightskip=\skip67
-\RaggedRightRightskip=\skip68
-\CenteringParfillskip=\skip69
-\RaggedLeftParfillskip=\skip70
-\RaggedRightParfillskip=\skip71
-\JustifyingParfillskip=\skip72
-\CenteringParindent=\skip73
-\RaggedLeftParindent=\skip74
-\RaggedRightParindent=\skip75
-\JustifyingParindent=\skip76
+\CenteringLeftskip=\skip64
+\RaggedLeftLeftskip=\skip65
+\RaggedRightLeftskip=\skip66
+\CenteringRightskip=\skip67
+\RaggedLeftRightskip=\skip68
+\RaggedRightRightskip=\skip69
+\CenteringParfillskip=\skip70
+\RaggedLeftParfillskip=\skip71
+\RaggedRightParfillskip=\skip72
+\JustifyingParfillskip=\skip73
+\CenteringParindent=\skip74
+\RaggedLeftParindent=\skip75
+\RaggedRightParindent=\skip76
+\JustifyingParindent=\skip77
 )
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 17.
 \openout3 = `mainNotes.bib'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
@@ -390,413 +453,89 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (d:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{d:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<img/gc-xray-sources.png, id=15, 382.42876pt x 448.67625pt>
-File: img/gc-xray-sources.png Graphic file (type png)
-<use img/gc-xray-sources.png>
-Package pdftex.def Info: img/gc-xray-sources.png  used on input line 59.
-(pdftex.def)             Requested size: 187.19714pt x 219.62735pt.
- [2 <./img/gc-xray-sources.png>]
-<img/truecolor-mx0.75-edit-bright.jpg, id=25, 1922.68312pt x 1700.60344pt>
-File: img/truecolor-mx0.75-edit-bright.jpg Graphic file (type jpg)
-<use img/truecolor-mx0.75-edit-bright.jpg>
-Package pdftex.def Info: img/truecolor-mx0.75-edit-bright.jpg  used on input line 69.
-(pdftex.def)             Requested size: 397.80286pt x 351.84364pt.
- [3 <./img/truecolor-mx0.75-edit-bright.jpg>]
-Overfull \vbox (0.24007pt too high) has occurred while \output is active []
+) [1]
+File: img/gc-xray-sources.png Graphic file (type bmp)
+<img/gc-xray-sources.png>
+ [2]
+File: img/truecolor-mx0.75-edit-bright.jpg Graphic file (type bmp)
+<img/truecolor-mx0.75-edit-bright.jpg>
+ [3]
+Overfull \vbox (0.60332pt too high) has occurred while \output is active []
 
  [4]
-<img/src-3-spectrum.jpg, id=33, 2187.17125pt x 3028.31375pt>
-File: img/src-3-spectrum.jpg Graphic file (type jpg)
-<use img/src-3-spectrum.jpg>
-Package pdftex.def Info: img/src-3-spectrum.jpg  used on input line 115.
-(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
-<img/src-5-spectrum.jpg, id=34, 2187.17125pt x 3028.31375pt>
-File: img/src-5-spectrum.jpg Graphic file (type jpg)
-<use img/src-5-spectrum.jpg>
-Package pdftex.def Info: img/src-5-spectrum.jpg  used on input line 116.
-(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
-<img/src-6-spectrum.jpg, id=35, 2187.17125pt x 3028.31375pt>
-File: img/src-6-spectrum.jpg Graphic file (type jpg)
-<use img/src-6-spectrum.jpg>
-Package pdftex.def Info: img/src-6-spectrum.jpg  used on input line 117.
-(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
-<img/src-11-spectrum.jpg, id=36, 2187.17125pt x 3028.31375pt>
-File: img/src-11-spectrum.jpg Graphic file (type jpg)
-<use img/src-11-spectrum.jpg>
-Package pdftex.def Info: img/src-11-spectrum.jpg  used on input line 118.
-(pdftex.def)             Requested size: 2187.16594pt x 3028.30641pt.
- [5] [6] [7 <./img/src-3-spectrum.jpg> <./img/src-5-spectrum.jpg> <./img/src-6-spectrum.jpg> <./img/src-11-spectrum.jpg>] [8] (./main.bbl) [9]
-<img/src-1-spectrum.jpg, id=55, 710.8959pt x 531.1845pt>
-File: img/src-1-spectrum.jpg Graphic file (type jpg)
-<use img/src-1-spectrum.jpg>
-Package pdftex.def Info: img/src-1-spectrum.jpg  used on input line 140.
-(pdftex.def)             Requested size: 710.89417pt x 531.18318pt.
-<img/src-2-spectrum.jpg, id=56, 701.5008pt x 524.6802pt>
-File: img/src-2-spectrum.jpg Graphic file (type jpg)
-<use img/src-2-spectrum.jpg>
-Package pdftex.def Info: img/src-2-spectrum.jpg  used on input line 141.
-(pdftex.def)             Requested size: 701.49908pt x 524.67892pt.
-<img/src-4-spectrum.jpg, id=57, 709.4505pt x 530.2209pt>
-File: img/src-4-spectrum.jpg Graphic file (type jpg)
-<use img/src-4-spectrum.jpg>
-Package pdftex.def Info: img/src-4-spectrum.jpg  used on input line 142.
-(pdftex.def)             Requested size: 709.44876pt x 530.21959pt.
-<img/src-7-spectrum.jpg, id=58, 711.6186pt x 535.2798pt>
-File: img/src-7-spectrum.jpg Graphic file (type jpg)
-<use img/src-7-spectrum.jpg>
-Package pdftex.def Info: img/src-7-spectrum.jpg  used on input line 143.
-(pdftex.def)             Requested size: 711.61687pt x 535.27849pt.
-<img/src-8-spectrum.jpg, id=59, 705.1143pt x 529.4982pt>
-File: img/src-8-spectrum.jpg Graphic file (type jpg)
-<use img/src-8-spectrum.jpg>
-Package pdftex.def Info: img/src-8-spectrum.jpg  used on input line 148.
-(pdftex.def)             Requested size: 705.11258pt x 529.49689pt.
-<img/src-9-spectrum.jpg, id=60, 703.1871pt x 526.3665pt>
-File: img/src-9-spectrum.jpg Graphic file (type jpg)
-<use img/src-9-spectrum.jpg>
-Package pdftex.def Info: img/src-9-spectrum.jpg  used on input line 149.
-(pdftex.def)             Requested size: 703.1854pt x 526.36522pt.
-<img/src-10-spectrum.jpg, id=61, 711.6186pt x 531.9072pt>
-File: img/src-10-spectrum.jpg Graphic file (type jpg)
-<use img/src-10-spectrum.jpg>
-Package pdftex.def Info: img/src-10-spectrum.jpg  used on input line 150.
-(pdftex.def)             Requested size: 711.61687pt x 531.90588pt.
-<img/src-12-spectrum.jpg, id=62, 703.428pt x 529.4982pt>
-File: img/src-12-spectrum.jpg Graphic file (type jpg)
-<use img/src-12-spectrum.jpg>
-Package pdftex.def Info: img/src-12-spectrum.jpg  used on input line 151.
-(pdftex.def)             Requested size: 703.42628pt x 529.49689pt.
-<img/src-13-spectrum.jpg, id=63, 705.837pt x 533.5935pt>
-File: img/src-13-spectrum.jpg Graphic file (type jpg)
-<use img/src-13-spectrum.jpg>
-Package pdftex.def Info: img/src-13-spectrum.jpg  used on input line 156.
-(pdftex.def)             Requested size: 397.80286pt x 300.73183pt.
- [10 <./img/src-1-spectrum.jpg> <./img/src-2-spectrum.jpg> <./img/src-4-spectrum.jpg> <./img/src-7-spectrum.jpg>] (d:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (d:/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2023/02/27 1.9 listings language file
-) [11 <./img/src-8-spectrum.jpg> <./img/src-9-spectrum.jpg> <./img/src-10-spectrum.jpg> <./img/src-12-spectrum.jpg>] (./auto-xspec-process.xcm
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 9.
- (d:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 9.
- (d:/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 9.
+Overfull \hbox (7.82361pt too wide) in paragraph at lines 82--83
+\TU/lmr/m/n/12 maybe accessed online at []$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
 
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 15--16
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
+File: img/src-3-spectrum.jpg Graphic file (type bmp)
+<img/src-3-spectrum.jpg>
+File: img/src-5-spectrum.jpg Graphic file (type bmp)
+<img/src-5-spectrum.jpg>
+File: img/src-6-spectrum.jpg Graphic file (type bmp)
+<img/src-6-spectrum.jpg>
+File: img/src-11-spectrum.jpg Graphic file (type bmp)
+<img/src-11-spectrum.jpg>
+[5] [6] [7] [8] (./main.bbl
+Missing character: There is no ω (U+03C9) in font [lmroman10-italic]:mapping=tex-text;!
+Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ω (U+03C9) in font [lmroman10-italic]:mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+[]\TU/lmr/m/n/10.95 B. Gendre, D. Barret, and N. A. Webb.  An XMM-Newton observa-
  []
 
 
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 16--17
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+\TU/lmr/m/n/10.95 tion of the globular cluster Omega Centauri.  \TU/lmr/m/it/10.95 Astronomy & Astrophysics\TU/lmr/m/n/10.95 ,
  []
 
 
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][][][][]
+Underfull \hbox (badness 6741) in paragraph at lines 40--44
+\TU/lmr/m/n/10.95 400(2):521–531, March 2003.  Source DB: http://simbad.u-strasbg.fr/simbad/sim-
  []
 
 
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][][][][][][]
+Overfull \hbox (17.18282pt too wide) in paragraph at lines 40--44
+\TU/lmr/m/n/10.95 ref?querymethod=bib&simbo=on&submit=submit+bibcode&bibcode=2003A%26A...400..521G. 
  []
 
-[12{d:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./img/src-13-spectrum.jpg>]
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 19--20
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (25.49915pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 34--35
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-[13] [14]
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 99--100
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 100--101
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 101--102
-[][][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 102--103
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 103--104
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 104--105
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 105--106
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 106--107
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 107--108
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 108--109
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 109--110
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 110--111
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 111--112
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 112--113
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 113--114
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (32.54913pt too wide) in paragraph at lines 114--115
-[][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 115--116
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (25.49915pt too wide) in paragraph at lines 116--117
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 118--119
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-[15] [16]
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 196--197
-[][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 197--198
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 198--199
-[][][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 199--200
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 200--201
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 201--202
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 202--203
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 203--204
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 204--205
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 205--206
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 206--207
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 207--208
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-[17]
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 208--209
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 209--210
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 210--211
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (32.54913pt too wide) in paragraph at lines 211--212
-[][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (11.39917pt too wide) in paragraph at lines 212--213
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (25.49915pt too wide) in paragraph at lines 213--214
-[][][][][][][][][][][][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (4.34918pt too wide) in paragraph at lines 215--216
-[][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-[18]) [19] (./main.aux)
+Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
+[9]
+Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
+) [10]
+File: img/src-1-spectrum.jpg Graphic file (type bmp)
+<img/src-1-spectrum.jpg>
+File: img/src-2-spectrum.jpg Graphic file (type bmp)
+<img/src-2-spectrum.jpg>
+File: img/src-4-spectrum.jpg Graphic file (type bmp)
+<img/src-4-spectrum.jpg>
+File: img/src-7-spectrum.jpg Graphic file (type bmp)
+<img/src-7-spectrum.jpg>
+File: img/src-8-spectrum.jpg Graphic file (type bmp)
+<img/src-8-spectrum.jpg>
+File: img/src-9-spectrum.jpg Graphic file (type bmp)
+<img/src-9-spectrum.jpg>
+File: img/src-10-spectrum.jpg Graphic file (type bmp)
+<img/src-10-spectrum.jpg>
+File: img/src-12-spectrum.jpg Graphic file (type bmp)
+<img/src-12-spectrum.jpg>
+File: img/src-13-spectrum.jpg Graphic file (type bmp)
+<img/src-13-spectrum.jpg>
+ [11] [12] [13] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 11ED299A63228C80842538C990CEF2BE;1195.
  ) 
 Here is how much of TeX's memory you used:
- 9200 strings out of 476303
- 140032 string characters out of 5788266
- 2021248 words of memory out of 5000000
- 30202 multiletter control sequences out of 15000+600000
- 569760 words of font info for 81 fonts, out of 8000000 for 9000
+ 13413 strings out of 477053
+ 209512 string characters out of 5802109
+ 1938879 words of memory out of 5000000
+ 34249 multiletter control sequences out of 15000+600000
+ 567987 words of font info for 90 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 71i,11n,79p,2177b,1845s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (19 pages, 6480171 bytes).
-PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72i,11n,79p,2411b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on main.pdf (13 pages).

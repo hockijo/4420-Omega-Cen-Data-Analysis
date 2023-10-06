@@ -1,55 +1,148 @@
-%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
-%Control: key (0)
-%Control: author (8) initials jnrlst
-%Control: editor formatted (1) identically to author
-%Control: production of article title (0) allowed
-%Control: page (0) single
-%Control: year (1) truncated
-%Control: production of eprint (0) enabled
-\begin{thebibliography}{1}%
-\makeatletter
-\providecommand \@ifxundefined [1]{%
- \@ifx{#1\undefined}
-}%
-\providecommand \@ifnum [1]{%
- \ifnum #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \@ifx [1]{%
- \ifx #1\expandafter \@firstoftwo
- \else \expandafter \@secondoftwo
- \fi
-}%
-\providecommand \natexlab [1]{#1}%
-\providecommand \enquote  [1]{``#1''}%
-\providecommand \bibnamefont  [1]{#1}%
-\providecommand \bibfnamefont [1]{#1}%
-\providecommand \citenamefont [1]{#1}%
-\providecommand \href@noop [0]{\@secondoftwo}%
-\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
-\providecommand \@href[1]{\@@startlink{#1}\@@href}%
-\providecommand \@@href[1]{\endgroup#1\@@endlink}%
-\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
-\providecommand \@@startlink[1]{}%
-\providecommand \@@endlink[0]{}%
-\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
-\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
-\providecommand \urlprefix  [0]{URL }%
-\providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{https://doi.org/}%
-\providecommand \selectlanguage [0]{\@gobble}%
-\providecommand \bibinfo  [0]{\@secondoftwo}%
-\providecommand \bibfield  [0]{\@secondoftwo}%
-\providecommand \translation [1]{[#1]}%
-\providecommand \BibitemOpen [0]{}%
-\providecommand \bibitemStop [0]{}%
-\providecommand \bibitemNoStop [0]{.\EOS\space}%
-\providecommand \EOS [0]{\spacefactor3000\relax}%
-\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
-\let\auto@bib@innerbib\@empty
-%</preamble>
-\bibitem [{\citenamefont {Verbunt}\ and\ \citenamefont {Lewin}(2006)}]{Verbunt2006}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Verbunt}}\ and\ \bibinfo {author} {\bibfnamefont {W.~H.~G.}\ \bibnamefont {Lewin}},\ }\bibinfo {title} {Globular cluster x-ray sources},\ in\ \href {https://doi.org/10.1017/CBO9780511536281.009} {\emph {\bibinfo {booktitle} {Compact Stellar X-ray Sources}}},\ \bibinfo {series and number} {Cambridge Astrophysics},\ \bibinfo {editor} {edited by\ \bibinfo {editor} {\bibfnamefont {W.}~\bibnamefont {Lewin}}\ and\ \bibinfo {editor} {\bibfnamefont {M.}~\bibnamefont {van~der Klis}}}\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo {year} {2006})\ p.\ \bibinfo {pages} {341–380}\BibitemShut {NoStop}%
-\end{thebibliography}%
+\begin{thebibliography}{10}
+
+\bibitem{Bahramian2022}
+Arash Bahramian and Nathalie Degenaar.
+\newblock Low-{Mass} {X}-ray {Binaries}.
+\newblock 2022.
+\newblock Publisher: arXiv Version Number: 1.
+
+\bibitem{Bellini2009}
+A.~Bellini, G.~Piotto, L.~R. Bedin, J.~Anderson, I.~Platais, Y.~Momany, A.~Moretti, A.~P. Milone, and S.~Ortolani.
+\newblock Ground-based {CCD} astrometry with wide field imagers: {III}. {WFI}@2.2m proper-motion catalog of the globular cluster \textit{ω} {Centauri}.
+\newblock {\em Astronomy \& Astrophysics}, 493(3):959--978, January 2009.
+
+\bibitem{Cash1979}
+W.~Cash.
+\newblock Parameter estimation in astronomy through application of the likelihood ratio.
+\newblock {\em The Astrophysical Journal}, 228:939, March 1979.
+
+\bibitem{Cool2013}
+Adrienne~M. Cool, Daryl Haggard, Tersi Arias, Michelle Brochmann, Jason Dorfman, April Gafford, Vivian White, and Jay Anderson.
+\newblock \textit{{HST}} /{ACS} {IMAGING} {OF} {OMEGA} {CENTAURI}: {OPTICAL} {COUNTERPARTS} {OF} \textit{{CHANDRA}} {X}-{RAY} {SOURCES}.
+\newblock {\em The Astrophysical Journal}, 763(2):126, January 2013.
+
+\bibitem{Dsouza2013}
+Richard D'Souza and Hans-Walter Rix.
+\newblock Mass estimates from stellar proper motions: the mass of ω {Centauri}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 429(3):1887--1901, March 2013.
+
+\bibitem{Forbes2010}
+Duncan~A. Forbes and Terry Bridges.
+\newblock Accreted versus \textit{in situ} {Milky} {Way} globular clusters.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, February 2010.
+
+\bibitem{Vandevan2006}
+{G. Van De Ven}, R.~C.~E. Van Den~Bosch, E.~K. Verolme, and P.~T. De~Zeeuw.
+\newblock The dynamical distance and intrinsic structure of the globular cluster \textit{ω} {Centauri}.
+\newblock {\em Astronomy \& Astrophysics}, 445(2):513--543, January 2006.
+
+\bibitem{Gendre2003}
+B.~Gendre, D.~Barret, and N.~A. Webb.
+\newblock An {XMM}-{Newton} observation of the globular cluster {Omega} {Centauri}.
+\newblock {\em Astronomy \& Astrophysics}, 400(2):521--531, March 2003.
+\newblock Source DB: http://simbad.u-strasbg.fr/simbad/sim-ref?querymethod=bib\&simbo=on\&submit=submit+bibcode\&bibcode=2003A\%26A...400..521G.
+
+\bibitem{Guillot2013}
+Sebastien Guillot, Mathieu Servillat, Natalie~A. Webb, and Robert~E. Rutledge.
+\newblock {MEASUREMENT} {OF} {THE} {RADIUS} {OF} {NEUTRON} {STARS} {WITH} {HIGH} {SIGNAL}-{TO}-{NOISE} {QUIESCENT} {LOW}-{MASS} {X}-{RAY} {BINARIES} {IN} {GLOBULAR} {CLUSTERS}.
+\newblock {\em The Astrophysical Journal}, 772(1):7, June 2013.
+
+\bibitem{Haggard2009}
+Daryl Haggard, Adrienne~M. Cool, and Melvyn~B. Davies.
+\newblock A {Chandra} {Study} of the {Galactic} {Globular} {Cluster} {Omega} {Centauri}.
+\newblock {\em The Astrophysical Journal}, 697(1):224--236, May 2009.
+\newblock arXiv:0902.2397 [astro-ph].
+
+\bibitem{Heinke2014}
+C.~O. Heinke, H.~N. Cohn, P.~M. Lugger, N.~A. Webb, W.~C.~G. Ho, J.~Anderson, S.~Campana, S.~Bogdanov, D.~Haggard, A.~M. Cool, and J.~E. Grindlay.
+\newblock Improved mass and radius constraints for quiescent neutron stars in ω {Cen} and {NGC} 6397.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 444(1):443--456, October 2014.
+
+\bibitem{Heinke2005}
+C.~O. Heinke, J.~E. Grindlay, P.~D. Edmonds, H.~N. Cohn, P.~M. Lugger, F.~Camilo, S.~Bogdanov, and P.~C. Freire.
+\newblock A {Deep} \textit{{Chandra}} {Survey} of the {Globular} {Cluster} 47 {Tucanae}: {Catalog} of {Point} {Sources}.
+\newblock {\em The Astrophysical Journal}, 625(2):796--824, June 2005.
+
+\bibitem{Henleywillis2018}
+Simon Henleywillis, Adrienne~M Cool, Daryl Haggard, Craig Heinke, Paul Callanan, and Yue Zhao.
+\newblock A {Deep} {X}-ray {Survey} of the globular cluster {Omega} {Centauri}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 479(2):2834--2852, September 2018.
+
+\bibitem{Kalzuny2004}
+J.~Kaluzny, A.~Olech, I.~B. Thompson, W.~Pych, W.~Krzemiński, and A.~Schwarzenberg-Czerny.
+\newblock Cluster {AgeS} {Experiment} {Catalog} of variable stars in the globular cluster {$\omega$} {Centauri}.
+\newblock {\em Astronomy \& Astrophysics}, 424(3):1101--1110, September 2004.
+
+\bibitem{Liedahl1995}
+Duane~A. Liedahl, Albert~L. Osterheld, and William~H. Goldstein.
+\newblock New {Calculations} of {Fe} {L}-{Shell} {X}-{Ray} {Spectra} in {High}-{Temperature} {Plasmas}.
+\newblock {\em The Astrophysical Journal}, 438:L115, January 1995.
+\newblock ADS Bibcode: 1995ApJ...438L.115L.
+
+\bibitem{Luna2013}
+G.~J.~M. Luna, J.~L. Sokoloski, K.~Mukai, and T.~Nelson.
+\newblock Symbiotic stars in {X}-rays.
+\newblock {\em Astronomy and Astrophysics}, 559:A6, November 2013.
+\newblock ADS Bibcode: 2013A\&A...559A...6L.
+
+\bibitem{Mewe1985}
+R.~Mewe, E.~H. B.~M. Gronenschild, and G.~H.~J. van~den Oord.
+\newblock Calculated {X}-{Radiation} from {Optically} {Thin} {Plasmas} - {Part} {Five}.
+\newblock {\em Astronomy and Astrophysics Supplement Series}, 62:197, November 1985.
+\newblock ADS Bibcode: 1985A\&AS...62..197M.
+
+\bibitem{Mewe1986}
+R.~Mewe, J.~R. Lemen, and G.~H.~J. van~den Oord.
+\newblock Calculated {X}-radiation from optically thin plasmas. {VI} - {Improved} calculations for continuum emission and approximation formulae for nonrelativistic average {Gaunt} actors.
+\newblock {\em Astronomy and Astrophysics Supplement Series}, 65:511--536, September 1986.
+\newblock ADS Bibcode: 1986A\&AS...65..511M.
+
+\bibitem{Noyola2008}
+Eva Noyola, Karl Gebhardt, and Marcel Bergmann.
+\newblock Gemini and \textit{{Hubble} {Space} {Telescope}} {Evidence} for an {Intermediate}‐{Mass} {Black} {Hole} in ω {Centauri}.
+\newblock {\em The Astrophysical Journal}, 676(2):1008--1015, April 2008.
+
+\bibitem{Pretorius2013}
+Magaretha~L. Pretorius, Christian Knigge, and Axel~D. Schwope.
+\newblock The space density of magnetic cataclysmic variables.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 432(1):570--583, June 2013.
+
+\bibitem{verbunt_x-ray_1984}
+F.~Verbunt, J.~van Paradijs, and R.~Elson.
+\newblock X-ray sources in globular clusters.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 210:899--914, October 1984.
+\newblock ADS Bibcode: 1984MNRAS.210..899V.
+
+\bibitem{Verbunt1993}
+Frank Verbunt.
+\newblock Origin and evolution of {X}-ray binaries and binary radio pulsars.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 31:93--127, January 1993.
+\newblock ADS Bibcode: 1993ARA\&A..31...93V.
+
+\bibitem{Verbunt2014}
+Frank Verbunt and Paulo C.~C. Freire.
+\newblock On the disruption of pulsar and {X}-ray binaries in globular clusters.
+\newblock {\em Astronomy \& Astrophysics}, 561:A11, January 2014.
+
+\bibitem{Verbunt2004}
+Frank Verbunt and Walter H.~G. Lewin.
+\newblock Globular cluster x-ray sources, 2004.
+
+\bibitem{Webb2007}
+Natalie~A. Webb and Didier Barret.
+\newblock Constraining the {Equation} of {State} of {Supranuclear} {Dense} {Matter} from \textit{{XMM}‐{Newton}} {Observations} of {Neutron} {Stars} in {Globular} {Clusters}.
+\newblock {\em The Astrophysical Journal}, 671(1):727--733, December 2007.
+
+\bibitem{Wilms2000}
+J.~Wilms, A.~Allen, and R.~McCray.
+\newblock On the {Absorption} of {X}-{Rays} in the {Interstellar} {Medium}.
+\newblock {\em The Astrophysical Journal}, 542:914--924, October 2000.
+\newblock ADS Bibcode: 2000ApJ...542..914W.
+
+\bibitem{Yan2008}
+Lin Yan.
+\newblock {\em Binary stars in globular clusters}.
+\newblock PhD thesis, California Institute of Technology, October 2008.
+\newblock Medium: PDF Version Number: Final.
+
+\end{thebibliography}
